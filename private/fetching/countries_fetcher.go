@@ -12,7 +12,7 @@ type Countries struct {
 }
 
 func (f *Countries) Fetch() ([]domain.Country, error) {
-	req, _ := http.NewRequest(http.MethodGet, "https://corona.lmao.ninja/v2/countries", nil)
+	req, _ := http.NewRequest(http.MethodGet, "https://disease.sh/v3/covid-19/countries", nil)
 	res, err := f.Do(req)
 	if err != nil {
 		return nil, err

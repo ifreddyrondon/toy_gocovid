@@ -13,7 +13,7 @@ type HistoricalCountryVal struct {
 	Err               error
 }
 
-const uriTemplate = "https://corona.lmao.ninja/v2/historical/%v?lastdays=%v"
+const uriTemplate = "https://disease.sh/v3/covid-19/historical/%v?lastdays=%v"
 const defaultLastDays = 30
 
 type Historical struct {

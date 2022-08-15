@@ -12,7 +12,7 @@ type All struct {
 }
 
 func (f *All) Fetch() (*domain.All, error) {
-	req, _ := http.NewRequest(http.MethodGet, "https://corona.lmao.ninja/v2/all", nil)
+	req, _ := http.NewRequest(http.MethodGet, "https://disease.sh/v3/covid-19/all", nil)
 	res, err := f.Do(req)
 	if err != nil {
 		return nil, err
