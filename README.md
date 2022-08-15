@@ -13,6 +13,8 @@ critical and mortality rate
 
 ## Demo
 
+https://user-images.githubusercontent.com/3026639/184633312-8346ef2d-5daa-4443-94e6-6b7e90472594.mov
+
 ## Installation and usage
 
 ```bash
